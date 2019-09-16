@@ -1,0 +1,25 @@
+{
+  "name": "muse-ui2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name muse-ui2 src/index.js"
+  },
+  "dependencies": {
+    "body-scroll-lock": "^2.6.4",
+    "core-js": "^2.6.5",
+    "dayjs": "^1.8.16",
+    "keycode": "^2.2.0",
+    "normalize-wheel": "^1.0.1",
+    "resize-observer-polyfill": "^1.5.1",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
